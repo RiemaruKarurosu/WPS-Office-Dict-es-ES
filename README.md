@@ -51,7 +51,7 @@ Esto funciona en Manjaro Linux 20.1 Gnome/KDE.
 
 - Instalación
 ```bash
-	./install.sh
+	sudo ./install.sh
 ```
 
 #Instalación sin script.
