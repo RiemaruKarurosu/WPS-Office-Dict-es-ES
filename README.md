@@ -29,3 +29,40 @@ Detalles del contacto:
 
 Washington Indacochea Delgado
 wachin.id@gmail.com
+
+
+#Instalación General.
+
+Esto funciona en Manjaro Linux 20.1 Gnome/KDE.
+
+
+- Clonar el repositorio.
+```bash
+	git clone https://github.com/RiemaruKarurosu/WPS-Office-Dict-es-ES.git
+```
+
+
+#Instalación con script.
+
+- En caso de que no funcione el script utilizar este comando.
+```bash
+	chmod 755 install.sh
+```
+
+- Instalación
+```bash
+	./install.sh
+```
+
+#Instalación sin script.
+
+- Copiamos la carpeta `es_ES` al directorio de diccionarios de wps office:
+
+```bash
+	sudo cp -r es_ES /usr/lib/office6/dicts/spellcheck
+```
+
+
+
+
+
